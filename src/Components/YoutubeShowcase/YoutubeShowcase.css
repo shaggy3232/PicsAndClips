@@ -1,0 +1,59 @@
+.bgY{
+    border: 2px solid rgb(194, 187, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1vh;
+}
+.ShowcaseTitle{
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Quicksand";
+    font-size: xx-large;
+    color: #c2bbf0;
+    font-weight: bold;
+}
+.showcaseChannel{
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Quicksand";
+    font-size: large;
+    color: #8fb8ed;
+    font-weight: bold;
+}
+.showcaseDescription{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Quicksand";
+    color: #8FB8ED;
+    font-weight: lighter;
+    font-size: large;
+    margin: 3vh;
+}
+.Video{
+    margin: 1vh;
+}
+.instagram{
+    margin: 1vh;
+    color: #8fb8ed;
+}
+.twitter{
+    margin: 1vh;
+    color: #8fb8ed;
+}
+.youtube{
+    margin: 1vh;
+    color: #8fb8ed;
+}
