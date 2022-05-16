@@ -7,6 +7,7 @@ import NFTLookOut from "../NFTLookOut/NFTLookOut";
 import YoutubeShowcase from "../YoutubeShowcase/YoutubeShowcase";
 import Heatlist from "../HeatList/Heatlist";
 import NavBar from '../NavBar/NavBar';
+import BrandDesignMenu from '../BrandDesignPackages/BrandDesignPackage';
 
 class Homepage extends Component {
     render(){
@@ -15,11 +16,8 @@ class Homepage extends Component {
                 <Container fluid ={true}>
                 <NavBar/>
                 <Row>
-                    <Col > 
-                            <Spotlight link = "https://byesammy.com/" name = "OvertimeSammy"/>
-                            <NFTLookOut/>
-                            <YoutubeShowcase/>
-                            {/* <Heatlist/> */}
+                    <Col >  <Spotlight name = "My Shit"/>
+                            <BrandDesignMenu/>
                     </Col>
                     <Col lg={3} md = {6} sm = {12} xs="12"><AssetArsenal/></Col>
                 </Row>

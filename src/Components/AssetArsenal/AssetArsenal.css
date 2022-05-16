@@ -1,5 +1,5 @@
 .bgA{
-    border: 2px solid rgb(194, 187, 240);
+    border: 2px solid #0B3948;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,7 @@
     width: 90%;
     margin: 20px;
     border-radius: 5px;
-    background:rgba(143, 184, 237, 0.2);
+    background:rgba(172, 176, 189, 0.2);
     color: rgb(53, 144, 243);
 }
 .Assets:hover { 
@@ -50,7 +50,7 @@
     flex-direction: column;
     align-items: center;
     font-family: "Quicksand";
-    color: #8FB8ED;
+    color: #416165;
     font-weight: lighter;
     font-size: small;
 }
@@ -68,7 +68,7 @@
 }
 .title{
     font-family: "Quicksand";
-    color: #c2bbf0;
+    color: #0B3948;
     font-weight: bold;
     text-shadow: rgb(194, 187, 240);
 }
