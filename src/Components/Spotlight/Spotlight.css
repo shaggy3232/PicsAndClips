@@ -1,5 +1,6 @@
 .bgS{
-    border: 2px solid rgb(194, 187, 240);
+    background-color: #D0CDD7;
+    border-radius:2em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +17,7 @@
     align-items: center;
     font-family: "Quicksand";
     font-size: xx-large;
-    color: #c2bbf0;
+    color: #0B3948;
     font-weight: bold;
 }
 
@@ -42,8 +43,11 @@
 
 .gallery{
     display: flex;
-    flex-direction: row;
+
 }
+.gallery::-webkit-scrollbar {
+    display: none;
+  }
 .Links{
     display: flex;
     flex-direction: row;
