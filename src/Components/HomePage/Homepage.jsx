@@ -9,6 +9,7 @@ import Heatlist from "../HeatList/Heatlist";
 import NavBar from '../NavBar/NavBar';
 import BrandDesignMenu from '../BrandDesignPackages/BrandDesignPackage';
 import GallerySign from '../GallerySign/GallerSign';
+import HeroBanner from '../HeroBanner/HeroBanner';
 
 
 class Homepage extends Component {
@@ -18,8 +19,9 @@ class Homepage extends Component {
                 <Container fluid ={true}>
                 <NavBar/>
                 <Row>
-                    <Col>  
-                       <GallerySign/>
+                    <Col>
+                        <HeroBanner/>
+                        <GallerySign/>
                         <BrandDesignMenu/>
                     </Col>
                     {/* <Col lg={3} md = {6} sm = {12} xs="12"><AssetArsenal/></Col> */}
