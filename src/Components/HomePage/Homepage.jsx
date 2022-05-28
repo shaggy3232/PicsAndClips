@@ -1,11 +1,11 @@
 import { Component } from 'react';
 import { Container, Col, Row, Navbar } from "react-bootstrap";
 import "./homepage.css"
-import AssetArsenal from "../AssetArsenal/AssetArsenal";
-import Spotlight from "../Spotlight/Spotlight"
-import NFTLookOut from "../NFTLookOut/NFTLookOut";
-import YoutubeShowcase from "../YoutubeShowcase/YoutubeShowcase";
-import Heatlist from "../HeatList/Heatlist";
+// import AssetArsenal from "../AssetArsenal/AssetArsenal";
+// import Spotlight from "../Spotlight/Spotlight"
+// import NFTLookOut from "../NFTLookOut/NFTLookOut";
+// import YoutubeShowcase from "../YoutubeShowcase/YoutubeShowcase";
+// import Heatlist from "../HeatList/Heatlist";
 import NavBar from '../NavBar/NavBar';
 import BrandDesignMenu from '../BrandDesignPackages/BrandDesignPackage';
 import GallerySign from '../GallerySign/GallerSign';
