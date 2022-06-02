@@ -33,6 +33,7 @@ const MenuItems = ({ items, breakfast, lunch, shakes }) => {
           grid-template-columns: 1fr;
         }
         margin-top: 30px;
+        margin-bottom: 30px:
         padding: 40px 20px;
         background: #D0CDD7;
         border-radius: 50px;
@@ -51,6 +52,7 @@ const MenuItems = ({ items, breakfast, lunch, shakes }) => {
 
           &:last-child {
             border-bottom: none;
+            margin-bottom: 10px;
           }
 
           &:nth-child(odd) {

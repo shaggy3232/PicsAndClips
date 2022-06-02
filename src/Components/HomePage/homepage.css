@@ -1,10 +1,9 @@
 .bg{
     background-color: #d9dbf1;
     background-size: cover;
-    position: "absolute";
+    position: absolute;
     top: 0;
     left: 0;
-    min-height: 100vh;
     margin: 0;
     width: "100%";
     overflow: auto;

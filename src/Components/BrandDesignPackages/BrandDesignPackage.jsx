@@ -58,7 +58,9 @@ function BrandDesignMenu() {
           }
           .container {
             width: 80%;
+            height: auto;
             margin: auto;
+            margin-bottom: 30px;
           }
         `}
       />

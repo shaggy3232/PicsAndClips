@@ -24,7 +24,7 @@ const Navbar = ({ setAll, setBreakfast, setLunch, setShakes }) => {
           place-items: center;
           .Buttons {
             grid-row: 1;
-            grid-column: 1/2;
+            grid-column: 2/2;
           }
           .logo {
             grid-row: 1;
