@@ -32,6 +32,7 @@ const Navbar = ({ setAll, setBreakfast, setLunch, setShakes }) => {
             position: relative;
             bottom: 10px;
             font-size: 3rem;
+            padding: 5px;
           }
           .dwu {
             grid-row: 1;

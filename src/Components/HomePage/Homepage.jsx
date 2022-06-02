@@ -15,18 +15,16 @@ import HeroBanner from '../HeroBanner/HeroBanner';
 class Homepage extends Component {
     render(){
         return(
-            <div className = "bg">
-                <Container fluid ={true}>
+            <div className = "bg">           
                 <NavBar/>
+                <HeroBanner/>
                 <Row>
                     <Col>
-                        <HeroBanner/>
                         <GallerySign/>
                         <BrandDesignMenu/>
                     </Col>
                     {/* <Col lg={3} md = {6} sm = {12} xs="12"><AssetArsenal/></Col> */}
                 </Row>
-                </Container>
             </div>
 
         )
