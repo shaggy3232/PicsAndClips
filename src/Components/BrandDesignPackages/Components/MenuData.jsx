@@ -1,109 +1,110 @@
 const menuData = [
   {
     id: 1,
-    title: "1-on-1 discussion",
+    title: "Market Direction",
     category: "starter",
-    fileFormat: "Phone",
-    desc: `This would be a discussion to help me get an understanding of what your brand is about and how I should design for you`,
-  },
-  {
-    id: 2,
-    title: "Instagram Post Templates",
-    category: "advanced",
-    fileFormat: "PSD",
-    desc: `Personalized, custom Instagram post templates to ensure cohesiveness between posts and help stand out from other brands`,
-  },
-  {
-    id: 3,
-    title: "Packaging Moc Ups",
-    category: "special",
-    price: 25,
-    desc: `Realistic moc up of you packaging to captivate your customer for the whole purchasing journey`,
-  },
-  {
-    id: 4,
-    title: "Primary Logo",
-    category: "starter",
-    fileFormat: "SVG",
-    desc: `This Logo would be Main logo depending on your brand could be the mascot logo or a type logo`,
-  },
-  {
-    id: 5,
-    title: "Instagram Highlight Icons",
-    category: "advanced",
-    fileFormat: "PNG",
-    desc: `Custom highlight to draw attention to your best Instagram Story content and to ensure cohesiveness`
-  },
-  {
-    id: 6,
-    title: "Business Card Design",
-    category: "special",
-    price: 25,
-    desc: `Personalized buisiness card design to give to clients and potential partners for a professional`,
-  },
-  {
-    id: 7,
-    title: "Custom Colour Palette",
-    category: "starter",
-    fileFormat: "PDF",
-    desc: `A collection of 3-5 colours that would build the base of the brand identity with a explanation of the uses for each colour `,
-  },
-  {
-    id: 8,
-    title: "Pintrest Ad Template",
-    category: "advanced",
-    fileFormat: "JPEG",
-    desc: `Engaging ad post to help attract customers to you page great scaled for both Pintrest and Instagram Stories`,
-  },
-  {
-    id: 9,
-    title: "NFC Stickers",
-    category: "special",
-    price: 50,
-    desc: `NFC Sticker programmed to make it easy to share your socials and website to whoever you come by and make great additions to throw into packages. Each order comes with 50 units`,
-  },
-  {
-    id: 10,
-    title: "Typography",
-    category: "starter",
-    fileFormat: "PDF",
-    desc: `Font pairs and collection both for post and website uses, as well as a type logo that can be used in different packaging and branding situations `,
-  },
-  {
-    id: 11,
-    title: "2 Ammends",
-    category: "starter",
-    fileFormat: "Phone",
-    desc: `This is the chance to tweak or change the direction of the brand design if anything was missed the first time`,
-  },
-  {
-    id: 12,
-    title: "Monogram Logos",
-    category: "starter",
-    fileFormat: "SVG",
-    desc: `Logo that would be used for monogram prints perfect for packaging and any type of patterned print for posts `,
-  },
-  {
-    id: 13,
-    title: "Final Logo Files",
-    category: "starter",
-    fileFormat: "SVG,  PNG",
-    desc: `Access to svg of all logo and type logos and a pdf docuement putting all the assets in a organized format`,
-  },
-  {
-    id: 14,
-    title: "Brand Pattern",
-    category: "advanced",
-    fileFormat: "SVG",
-    desc: `Brand Patterns to help give texture and depth to brand design great for post background and packaging `,
-  },
-  {
-    id: 15,
-    title: "1 Special Menu Item",
-    category: "advanced",
     fileFormat: "",
-    desc: `Your choice of one of the services offered in the special menu price included in the package`,
+    desc: `A Marketing direction include strategies, tactics and creative soloutions to help grow the brand and make it unique. Including photography direction, Ad campaign ideas and creative promotional soloutions `,
   },
+  {
+    id:2,
+    title:"Business Analysis",
+    category:"starter",
+    fileFormat:"",
+    desc:' A deep dive into the core of the business and operation to pinpoint weakness to correct and strengths to take advantage of.'
+
+  },
+  {
+    id:3,
+    title:"Road to Release Road Map",
+    category:"starter",
+    fileFormat:"",
+    desc: "A step-by-step guide of what need to be done before debuting you brand from building your brand identity to the announcment of your release"
+
+  },
+
+  {
+    id:4,
+    title:"Resource Search",
+    category:"starter",
+    fileFormat:"",
+    desc: ' A in depth list of all the resources you will need whether it is sourcing material, promotial recources or distribution lines'
+
+  },
+  {
+    id:5,
+    title:"Scalability measures",
+    category:"starter",
+    fileFormat:"",
+    desc:' We both know you want to be able to not only have a sgreat debut but to grow the brand as much as possible so this is where we talk about what you need to make sure that happens we can plan next steps for the brands and future growth plans to make sure you can keep doing what you love for as long as possible'
+
+  },
+  {
+    id:6,
+    title:"Mascot/Symbol Logo",
+    category:'main',
+    fileFormat:"",
+    desc:" A mascot or symbol logo is the face of your brand, with out any words your audience will recognize your brand values and instantly assoicate the mascot with your brand"
+
+  },
+  {
+    id:7,
+    title:"Type Logo",
+    category:"main",
+    fileFormat:"",
+    desc:"The type logo is your name, the brand name is important it defines what the values of the brand are and sets the tone for the rest of your brand this will also include variation that work better if landscaped or portrait"
+  },
+  {
+    id:8,
+    title:"Colour Pallet",
+    category:"main",
+    fileFormat:"",
+    desc:"A finely curated set of colours to make sure that your brand stays consistent and expresses the aesthetic of you brand correctly, This will also include instruction on how to use which colour when.",
+  },
+  {
+    id:9,
+    title:"Typography",
+    category:"main",
+    fileFormat:"",
+    desc:"A set of different fonts that work cohesively and present the brand aesthetic as well as instruction of when to use which font when",
+  },
+  {
+    id:10,
+    title:"Logo Mark",
+    category:"main",
+    fileFormat:"",
+    desc:' A Logo mark is a great asset to use for packaging and Monogram prints as it is a condensed representation of the brand',
+  },
+  {
+    id:11,
+    title:"Brand Pattern",
+    category:"main",
+    fileFormat:"",
+    desc:' Great for adding depth to the brand identity as the pattern can be used as texture or background for social media posts or packaging prints',
+  },
+
+  {
+    id:12,
+    title:"NFC Tags",
+    category:"deserts",
+    fileFormat:"",
+    desc:' stickers that can be used either to throw into packaging or on business cards to easily share you online presence quickly',
+  },
+  {
+    id:13,
+    title:"Packaging Moc-ups",
+    category:"deserts",
+    fileFormat:"",
+    desc:" Packaging design is important when trying to give a effective start to finish interaction with a customer",
+  },
+  {
+    id:14,
+    title:"Custom Graphics",
+    category:"deserts",
+    fileFormat:"",
+    desc:' Whether its a banner for a website or a social media post there is always a necisity for creative graphics',
+  },
+
 ];
 
 export default menuData;

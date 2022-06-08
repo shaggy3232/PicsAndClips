@@ -12,7 +12,7 @@ const MenuShakes = ({ shakes, items }) => {
     <>
       {shakes &&
         items
-          .filter((item) => item.category === "special")
+          .filter((item) => item.category === "deserts")
           .map((item, i) => (
             <motion.div
               className="menu-items"
@@ -24,7 +24,7 @@ const MenuShakes = ({ shakes, items }) => {
               <motion.div className="item-content">
                 <motion.div className="item-title-box">
                   <motion.h5 className="item-title">{item.title}</motion.h5>
-                  <motion.h5 className="item-price">${item.price}</motion.h5>
+                  <motion.h5 className="item-price">{item.price}</motion.h5>
                 </motion.div>
                 <motion.p className="item-desc">{item.desc}</motion.p>
               </motion.div>
