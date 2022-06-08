@@ -15,7 +15,7 @@ import HeroBanner from '../HeroBanner/HeroBanner';
 class Homepage extends Component {
     render(){
         return(
-            <div className = "bg">           
+            <div className = "bg" xs = {1}>           
                 <NavBar/>
                 <HeroBanner/>
                 <Row>

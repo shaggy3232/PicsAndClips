@@ -3,8 +3,8 @@
 
 //Variables
 $mobile-breakpoint: 350px;
-$large-mobile-breakpoint: 530px;
-$tablet-breakpoint: 700px;
+$large-mobile-breakpoint: 420px;
+$tablet-breakpoint: 850px;
 $desktop-breakpoint: 1200px;
 
 
@@ -99,13 +99,13 @@ body {
 
 
 .HeroContainer {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  height: auto;
+  height: 700px;
   background-color:#D7CCC8 ;
-  font-size: 100%;
+  font-size: 14px;
   font-family: "Montserrat", sans;
   .container-inner { 
    width: 100%;
@@ -113,7 +113,7 @@ body {
    display: flex;
    flex-direction: row;
    justify-content: flex-start;
-   position:relative;
+   position: relative;
    animation: fade-in 1.5s ease, slide-in 1.2s ease;
    -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
     .main-content {
@@ -159,7 +159,6 @@ body {
           }
           #heading3 {
             margin-top: -52px;
-            margin-bottom: 5vh;
             font-size: 1100%;
             font-weight: 800;
             letter-spacing: 2px;
@@ -167,16 +166,15 @@ body {
         }
         .short-bio {
           width: 60%;
-          margin-top: -30px;
+          margin-top: 30px;
           margin-left: 90px;
           font-style: italic;
           font-size: 105%;
-          word-wrap: break-word;
         }
         a {
-          // width: 72%;
+         // width: 72%;
           margin-left: 92px;
-          // margin-right: auto;
+         // margin-right: auto;
           align-self: flex-start;
           font-weight: bold;
           font-size: 120%;
@@ -190,15 +188,11 @@ body {
       }  
        .more-info {
           margin-top: -70px;
-          margin-bottom: 10px;
           width: 50%;
           height: 0;
           margin-left: auto;
           margin-right: auto; 
           align-self: flex-start;
-          font-family: "Montserrat", sans;
-          font-style: italic;
-          font-size: 105%;
           overflow: hidden;
           animation: reveal-info 4s ease 3s;
          -webkit-animation: reveal-info 4s ease 3s;
@@ -206,25 +200,20 @@ body {
     }
     .image-wrapper {
       flex-basis: 50%; 
-      order: 1;
-      position: relative;
-      box-sizing:border-box;
-      max-height: inherit;
+      order: 2;
       //background-color was #8D6E63
       .image-container {
         width: 100%;
         height: 100%;
-        overflow:hidden;
+        overflow: hidden;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        max-height: inherit;
-        box-sizing:border-box;
         align-items: center;
         animation: scaleDown 6s ease 2s ;
        -webkit-animation: scaleDown 6s ease 2s;
         img {
-          width: 80%;
+          width: 100%;
           height: auto;
           position: relative;
          }
@@ -241,19 +230,15 @@ body {
     animation-name: none !important;
   }
   .Herocontainer {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 700px;
     @include horizontal-center;
     font-size: 5px;
     margin-bottom: 20px;
-    box-sizing:border-box;
   }
   .container-inner {
     flex-direction: column !important;
     justify-content: center !important;
-    height: inherit;
-    padding-bottom: 1px;
-    box-sizing:border-box;
   }
   .main-content, .image-wrapper {
     flex-basis: 100% !important;
@@ -261,16 +246,10 @@ body {
   .main-content {
     order: 2 !important;
     outline: 1px solid red;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-    margin-top: 0;
+    margin: 0 50px;
   }
   .image-wrapper {
     order: 1 !important;
-    padding-top: 100px;
-    margin-top: 80px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
   }
   .heading {
     margin-left: 55px !important;
@@ -286,18 +265,17 @@ body {
     margin-top: -20px !important;
   }
   .short-bio {
-    margin-top: -10px !important;
+    margin-top: 10px !important;
     margin-left: 60px !important;
   }
    .more-info {
-    height: 60% !important;
+    height: 150px !important;
     width: 60% !important;
     margin: 0 !important;
     align-self: flex-start !important;
     margin-top: 0px !important;
     margin-left: 60px !important;
-    margin-bottom: 50px;
-    text-align: justify;
+    //text-align: justify;
     font-size: 8px;
   }
   .link {
@@ -306,25 +284,19 @@ body {
   .image-wrapper {
     order: 1 !important;    
     width: 100%;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    max-height: inherit;
+    height: 100px !important;
     justify-content: center !important;
   }
   .image-container {
     width: 100% !important;
-    height: 10px;    
+    height: 400px;    
     @include horizontal-center;
     @include vertical-center;
   }
   img {
-    width: 50% !important;
-    height: 50%;
-    max-height: inherit;
-    box-sizing:border-box;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    margin-top: 100px;
+    width: 80% !important;
+    height: auto !important;
+    top: -20px;
     @include horizontal-center;
   }
 }
@@ -336,7 +308,7 @@ body {
   * {
     animation-name: none !important;
   }
-  .Herocontainer {
+  .HeroContainer {
     width: 90%;
     height: 900px;
     @include horizontal-center;
@@ -368,9 +340,10 @@ body {
     }
   #heading3 {
     margin-top: -30px !important;
+    margin-right: 50px;
   }
   .short-bio {
-    margin-top: -20px !important;
+    margin-top: 20px !important;
     margin-left: 60px !important;
   }
   .link {
@@ -388,20 +361,18 @@ body {
   .image-wrapper {
     order: 1 !important;    
     width: 100%;
-    height: 100%;
+    height: 400px;
     justify-content: center !important;
   }
   .image-container {
     width: 100% !important;
-    height: 400px;
-    padding-top: 50px;
-    padding-bottom: 0px !important;
-    box-sizing:border-box;    
+    height: 400px;    
     @include horizontal-center;
   }
   img {
     width: 80% !important;
     height: auto !important;
+    top: -20px;
     @include horizontal-center;
   }
 }
@@ -428,7 +399,7 @@ body {
 //Media query for desktop devices 
 
 @include desktop {
-  .Herocontainer {
+  .HeroContainer {
     width: 100%;
     height: auto;
     font-size: 9px;

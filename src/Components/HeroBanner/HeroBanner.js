@@ -1,4 +1,4 @@
-import "./HeroBanner.scss"
+import "./HeroBanner2.scss"
 import Image3 from "../../Assets/Kaaaaws.JPG"
 function readMore() {
     var expandInfo = document.getElementById("more-info-js");
@@ -32,7 +32,6 @@ const HeroBanner = (props) => {
 
                         <div class="short-bio">
                         <p>I know you got some huge ideas in you! Its not always easy making those ideas turn to reality. I would hate to deprive the world of all the great oppurtunities that just could've been so, hit me up and lets get started to make what you have to offer happen.</p>
-
                         </div>
 
                         <a href="#" class="link" onClick={readMore}>Enquire</a>
