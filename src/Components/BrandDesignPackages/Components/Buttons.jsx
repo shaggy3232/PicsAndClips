@@ -74,7 +74,7 @@ const Buttons = ({ setBreakfast, setLunch, setShakes }) => {
           setShakes(false);
         }}
       >
-        <span>Starter</span>
+        <span>One man army</span>
       </button>
 
       <button
@@ -85,7 +85,7 @@ const Buttons = ({ setBreakfast, setLunch, setShakes }) => {
           setShakes(false);
         }}
       >
-        <span>Advanced</span>
+        <span>Dream team</span>
       </button>
 
       <button
@@ -96,7 +96,7 @@ const Buttons = ({ setBreakfast, setLunch, setShakes }) => {
           setLunch(false);
         }}
       >
-        <span>Special</span>
+        <span>Dynasty</span>
       </button>
     </div>
   );

@@ -1,7 +1,7 @@
 const menuData = [
   {
     id: 1,
-    title: "Market Direction",
+    title: "Customer Relationship manager",
     category: "starter",
     fileFormat: "",
     desc: `A Marketing direction include strategies, tactics and creative soloutions to help grow the brand and make it unique. Including photography direction, Ad campaign ideas and creative promotional soloutions `,
