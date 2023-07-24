@@ -13,7 +13,7 @@ const Buttons = ({ setBreakfast, setLunch, setShakes }) => {
       css={css`
         display: flex;
         button {
-          background: #d9dbf1;
+          background: #eef0eb;
           margin: 0 2rem;
           border: none;
           padding: 10px;
@@ -32,7 +32,7 @@ const Buttons = ({ setBreakfast, setLunch, setShakes }) => {
             display: block;
             height: 2px;
             width: 0;
-            background: #0b3948;;
+            background: #152243;
             transition: width 0.3s ease-in;
           }
           &:hover::after {
