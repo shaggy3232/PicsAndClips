@@ -4,10 +4,12 @@ import "./homepage.css"
 import BrandDesignMenu from '../BrandDesignPackages/BrandDesignPackage';
 import DigitalPresenceAudit from '../DigitalPresenseAudit/DigitalPresenceAudit';
 import Operation from '../Operation/Operation';
-import Marketing from '../Marketing/Marketing';
+import Marketing from '../walkthrough/walkthrough';
 import ShopifySolution from '../ShopifySoloutions/ShopifySoloution';
 import MediaCreation from '../MediaCreation/MediaCreation';
 import HeroBanner from '../HeroBanner/HeroBanner';
+import CreatorCarousel from '../CreatorCarousel/CreatorCarousel';
+import GoHighlevelContactForm from '../GoHighlevelContactForm/GoHighlevelContactForm';
 
 
 
@@ -16,12 +18,13 @@ class Homepage extends Component {
         return(
             <div className = "bg" >
                 <HeroBanner/>           
-                <BrandDesignMenu/>
                 <DigitalPresenceAudit/>
                 <Operation/>
+                <CreatorCarousel/>
+                <BrandDesignMenu/>
                 <Marketing/>
                 <ShopifySolution/>
-                <MediaCreation/>
+                <GoHighlevelContactForm/>
             </div>
 
         )
