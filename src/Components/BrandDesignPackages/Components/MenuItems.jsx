@@ -35,9 +35,9 @@ const MenuItems = ({ items, breakfast, lunch, shakes }) => {
         margin-top: 30px;
         margin-bottom: 30px:
         padding: 40px 20px;
-        background: #F4F9E9;
+        background: #eef0eb;
         border-radius: 50px;
-        box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+        box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
         margin-bottom: 3rem;
         width:80%;
 

@@ -28,7 +28,7 @@ class CreatorCarousel extends Component {
   slides = [
     {
       image: slideOneImage,
-      title: 'Website Creation',
+      title: 'Software Development',
       description: 'Design and develop breathtaking websites and applications',
     },
     {

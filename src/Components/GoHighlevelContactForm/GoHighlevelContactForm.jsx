@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, forwardRef } from 'react';
 import Iframe from 'react-iframe';
 
-const GoHighlevelContactForm = () => {
+const GoHighlevelContactForm = forwardRef((props, ref)=> {
   
 
     const [isIframeVisible, setIsIframeVisible] = useState(false);
@@ -15,7 +15,7 @@ const GoHighlevelContactForm = () => {
     };
   
     return (
-      <>
+      <div ref={ref}>
         <h2>Lets Connect</h2>
           <div className="iframe-container">
             <iframe
@@ -38,7 +38,7 @@ const GoHighlevelContactForm = () => {
             />
           </div>
         <script src="https://link.youshouldgetpluggedin.io/js/form_embed.js"></script>
-      </>
+      </div>
     );
-  };
+  });
 export default GoHighlevelContactForm;

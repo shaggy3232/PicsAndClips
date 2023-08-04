@@ -1,10 +1,10 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import { Container, Col, Row, Navbar } from "react-bootstrap";
 import "./homepage.css"
 import BrandDesignMenu from '../BrandDesignPackages/BrandDesignPackage';
 import DigitalPresenceAudit from '../DigitalPresenseAudit/DigitalPresenceAudit';
 import Operation from '../Operation/Operation';
-import Marketing from '../walkthrough/walkthrough';
+import Marketing from '../Marketing/Marketing';
 import ShopifySolution from '../ShopifySoloutions/ShopifySoloution';
 import MediaCreation from '../MediaCreation/MediaCreation';
 import HeroBanner from '../HeroBanner/HeroBanner';
@@ -14,17 +14,29 @@ import GoHighlevelContactForm from '../GoHighlevelContactForm/GoHighlevelContact
 
 
 class Homepage extends Component {
+
+    constructor(props) {
+        super(props);
+        this.contactFormRef = React.createRef();
+      }
+    
+      handleScrollToContactForm = () => {
+        if (this.contactFormRef.current) {
+          this.contactFormRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+
     render(){
         return(
             <div className = "bg" >
-                <HeroBanner/>           
-                <DigitalPresenceAudit/>
+                <HeroBanner onContactButtonClick={this.handleScrollToContactForm}/>
                 <Operation/>
                 <CreatorCarousel/>
                 <BrandDesignMenu/>
                 <Marketing/>
                 <ShopifySolution/>
-                <GoHighlevelContactForm/>
+                <DigitalPresenceAudit/>
+                <GoHighlevelContactForm ref={this.contactFormRef}/>
             </div>
 
         )

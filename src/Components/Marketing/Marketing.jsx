@@ -17,18 +17,13 @@ class Marketing extends Component {
                             </li>
                             <li >
                                 
-                                <div class="title">Step 2</div>
-                                <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, porro.</div>
+                                <div class="title">Build reputation</div>
+                                <div class="descr">By implementing many different customer service tools for you to be more accessible to your customer and set the foundation of a trustworthy business </div>
                             </li>
                             <li >
                                 
-                                <div class="title">Step 3</div>
-                                <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, porro.</div>
-                            </li>
-                            <li >
-                            
-                                <div class="title">Step 4</div>
-                                <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, porro.</div>
+                                <div class="title">Lead Generation</div>
+                                <div class="descr">We optimize every aspect of your lead generation process, from landing pages to follow-up strategies, ensuring your investment reaps remarkable returns.</div>
                             </li>
                         </ol>
             </div>
