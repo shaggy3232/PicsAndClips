@@ -10,8 +10,8 @@ import "./Operation.css"
 class Operation extends Component {
     render(){
         return(
-
-            <div class="operation-cards container">
+            <div className='container'>
+            <div class="operation-cards">
                 <h2>Operation Optimization</h2>
                 <div class="container">
                     <div class="card">
@@ -37,29 +37,30 @@ class Operation extends Component {
                     </div>
                     </div>
 
-                <div class="card">
-                <div class="box">
-                    <div class="content">
-                    
-                    <h3>Automation Management</h3>
-                    <p>We'll identify opportunities for automation across your business and create custom workflows that meet your specific requirements.</p>
-                    <img src={automationsvg} style={{ height: 153, width: 136 }} alt="Your SVG" />
+                    <div class="card">
+                    <div class="box">
+                        <div class="content">
+                        
+                        <h3>Automation Management</h3>
+                        <p>We'll identify opportunities for automation across your business and create custom workflows that meet your specific requirements.</p>
+                        <img src={automationsvg} style={{ height: 153, width: 136 }} alt="Your SVG" />
+                        </div>
                     </div>
-                </div>
-                </div>
+                    </div>
 
-                <div class="card">
-                <div class="box">
-                    <div class="content">
-                    
-                    <h3>Business Software Consultation</h3>
-                    <p>The primary goal of this service is to assist businesses in identifying and selecting the most suitable software tools that align with their specific needs and objectives. </p>
-                    <img src={consultingsvg} style={{ height: 153, width: 136 }} alt="Your SVG" />
+                    <div class="card">
+                    <div class="box">
+                        <div class="content">
+                        
+                        <h3>Business Software Consultation</h3>
+                        <p>The primary goal of this service is to assist businesses in identifying and selecting the most suitable software tools that align with their specific needs and objectives. </p>
+                        <img src={consultingsvg} style={{ height: 153, width: 136 }} alt="Your SVG" />
+                        </div>
+                    </div>
                     </div>
                 </div>
-                </div>
             </div>
-            </div>
+            </div> 
 
         )
     }
