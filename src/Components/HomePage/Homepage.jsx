@@ -32,7 +32,7 @@ class Homepage extends Component {
                 <HeroBanner onContactButtonClick={this.handleScrollToContactForm}/>
                 <Operation/>
                 <CreatorCarousel/>
-                
+                <BrandDesignMenu/>
                 <Marketing/>
                 <ShopifySolution/>
                 <DigitalPresenceAudit/>
