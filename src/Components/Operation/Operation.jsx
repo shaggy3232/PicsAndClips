@@ -11,7 +11,7 @@ class Operation extends Component {
     render(){
         return(
 
-            <div class="operation-cards">
+            <div class="operation-cards container">
                 <h2>Operation Optimization</h2>
                 <div class="container">
                     <div class="card">
