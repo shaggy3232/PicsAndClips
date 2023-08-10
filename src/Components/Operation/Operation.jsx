@@ -10,7 +10,7 @@ import "./Operation.css"
 class Operation extends Component {
     render(){
         return(
-            <div className='shopify-soloution-container'>
+            <div className='operation-cards-container'>
             <div class="operation-cards">
                 <h2>Operation Optimization</h2>
                 <div class="container">
