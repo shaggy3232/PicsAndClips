@@ -39,7 +39,7 @@ const questionsAnswers = [
 class DigitalPresenceAudit extends Component {
     render(){
         return(
-            <div className="container">
+            <div className="digital-presence-audit">
                 <div className="component neuphmorphism">
                     <div className="illustration">
 
