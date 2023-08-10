@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
 
+.operation-cards-container {
+  width:100%;
+}
+
 .operation-cards {
   display: flex;
   justify-content: center;
