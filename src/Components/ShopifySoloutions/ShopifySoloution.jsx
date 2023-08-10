@@ -6,7 +6,7 @@ import "./ShopifySoloution.css"
 class ShopifySoloution extends Component {
     render(){
         return(
-<div className="container">
+<div className="shopify-soloution-container">
   <div class="heading">
     <h1 class="heading__title">Shopify Soloutions</h1>
     <p class="heading__credits"><a class="heading__link" target="_blank" href="https://dribbble.com/sl">Expert Shopify Services for Your E-Commerce Success!</a></p>
