@@ -40,12 +40,19 @@ const MenuItems = ({ items, breakfast, lunch, shakes }) => {
         box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
         margin-bottom: 3rem;
         width:80%;
-
+        .checkout-link{
+          text-decoration:none;
+          color: #143253;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
         .menu-items {
           padding: 1rem 1.5rem;
           display: flex;
-          border: #efefef 1px solid;
+          border: #b4b8ab 1px solid;
           border-top: none;
+          border-right:none;
           ${mq[0]} {
             display: grid;
             img {

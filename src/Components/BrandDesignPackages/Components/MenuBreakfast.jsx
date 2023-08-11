@@ -29,9 +29,12 @@ const MenuBreakfast = ({ breakfast, items }) => {
                   <motion.h5 className="item-price">{item.fileFormat}</motion.h5>
                 </motion.div>
                 <motion.p className="item-desc">{item.desc}</motion.p>
+                <motion.a className="checkout-link"href="https://essential.youshouldgetpluggedin.io/essential-3147">Check it out now</motion.a>
               </motion.div>
             </motion.div>
-          ))}
+          )
+          )}
+          
     </>
   );
 };

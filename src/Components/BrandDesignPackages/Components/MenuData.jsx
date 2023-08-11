@@ -3,84 +3,84 @@ const menuData = [
     id: 1,
     title: "Customer Relationship manager",
     category: "starter",
-    fileFormat: "",
+    fileFormat: "Other tools: $99",
     desc: `A Marketing direction include strategies, tactics and creative soloutions to help grow the brand and make it unique. Including photography direction, Ad campaign ideas and creative promotional soloutions `,
   },
   {
     id:2,
-    title:"Business Analysis",
+    title:"Booking and Appointments",
     category:"starter",
-    fileFormat:"",
-    desc:' A deep dive into the core of the business and operation to pinpoint weakness to correct and strengths to take advantage of.'
+    fileFormat:"Other tools: $29",
+    desc:' Have vlients book there owns sessions and classes without needing to wait for any responses'
 
   },
   {
     id:3,
-    title:"Road to Release Road Map",
+    title:"Survey and Forms",
     category:"starter",
-    fileFormat:"",
-    desc: "A step-by-step guide of what need to be done before debuting you brand from building your brand identity to the announcment of your release"
+    fileFormat:"Other tools: $49",
+    desc: "No matter your industry or niche, our survey and form services are adaptable to your unique needs. Whether you're in retail, healthcare, finance, or beyond, we've got you covered."
 
   },
 
   {
     id:4,
-    title:"Resource Search",
+    title:"Reputation Management",
     category:"starter",
-    fileFormat:"",
+    fileFormat:"Other tools: $49",
     desc: ' A in depth list of all the resources you will need whether it is sourcing material, promotial recources or distribution lines'
 
   },
   {
     id:5,
-    title:"Scalability measures",
+    title:"Virtual Office - One Man Army",
     category:"starter",
-    fileFormat:"",
-    desc:' We both know you want to be able to not only have a sgreat debut but to grow the brand as much as possible so this is where we talk about what you need to make sure that happens we can plan next steps for the brands and future growth plans to make sure you can keep doing what you love for as long as possible'
+    fileFormat:"Our Price: $197",
+    desc:'Get all the features from this different tools in one place with our virtual office One Man Army plan.'
 
   },
   {
     id:6,
-    title:"Mascot/Symbol Logo",
+    title:"Email Marketing",
     category:'main',
-    fileFormat:"",
-    desc:" A mascot or symbol logo is the face of your brand, with out any words your audience will recognize your brand values and instantly assoicate the mascot with your brand"
+    fileFormat:"Other tools: $99",
+    desc:"Build and Manage email marketing campaignes to grow and nurture your customers"
 
   },
   {
     id:7,
-    title:"Type Logo",
+    title:"2-way SMS Marketing",
     category:"main",
-    fileFormat:"",
-    desc:"The type logo is your name, the brand name is important it defines what the values of the brand are and sets the tone for the rest of your brand this will also include variation that work better if landscaped or portrait"
+    fileFormat:"Other tools: $99",
+    desc:"Connect and build repport with clients in a personal manner"
   },
   {
     id:8,
-    title:"Colour Pallet",
-    category:"main",
-    fileFormat:"",
+    title:"Unlimited Sales Funnel",
+    category:"deserts",
+    fileFormat:"Other tools: $299",
     desc:"A finely curated set of colours to make sure that your brand stays consistent and expresses the aesthetic of you brand correctly, This will also include instruction on how to use which colour when.",
   },
   {
     id:9,
-    title:"Typography",
+    title:"Pipeline Management",
     category:"main",
-    fileFormat:"",
-    desc:"A set of different fonts that work cohesively and present the brand aesthetic as well as instruction of when to use which font when",
+    fileFormat:"Other tools: $99",
+    desc:"Manage potential leads and nurture them into clients",
   },
   {
     id:10,
-    title:"Logo Mark",
+    title:"Webchat Widget",
     category:"main",
-    fileFormat:"",
-    desc:' A Logo mark is a great asset to use for packaging and Monogram prints as it is a condensed representation of the brand',
+    fileFormat:"Other tools: $129",
+    desc:'Custom chat widget that can be linked to a phone number or email inbox to make sure no lead gets missed',
   },
   {
     id:11,
-    title:"Brand Pattern",
+    title:"Call Tracking",
     category:"main",
-    fileFormat:"",
-    desc:' Great for adding depth to the brand identity as the pattern can be used as texture or background for social media posts or packaging prints',
+    fileFormat:"Other tools: $95",
+    desc:'Manage missed calls and which customer reach out often to know which leads are close to converting',
   },
 
   {
@@ -104,6 +104,21 @@ const menuData = [
     fileFormat:"",
     desc:' Whether its a banner for a website or a social media post there is always a necisity for creative graphics',
   },
+  {
+    id:15,
+    title:"Analytics and tracking",
+    category:"main",
+    fileFormat:"Other Tools: $49",
+    desc:'Identify trends, detect bottlenecks, and pinpoint areas for improvement, allowing you to fine-tune your operations and optimize outcomes.',
+  },
+  {
+    id:16,
+    title:"Virtual Office - Dream Team",
+    category:"main",
+    fileFormat:"All This For: $497",
+    desc:'Everything in the One Man Army plan plus the additional Marketing features letting you not just optimize your services but grow seemlessly through digital marketing',
+  },
+  
 
 ];
 

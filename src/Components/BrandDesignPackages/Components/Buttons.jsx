@@ -42,14 +42,14 @@ const Buttons = ({ setBreakfast, setLunch, setShakes }) => {
             padding: 0 5px;
             font-family: "Poppins", sans-serif;
             font-weight: 600;
-            font-size: 0.5rem;
+            font-size: 1rem;
             color: #0b3948;
             margin: auto;
             ${mq[2]} {
               padding: 0;
             }
             ${mq[0]} {
-              font-size: 0.9rem;
+              font-size: 0.7rem;
             }
           }
         }

@@ -18,35 +18,10 @@ const Navbar = ({ setAll, setBreakfast, setLunch, setShakes }) => {
           font-size: 1.8rem;
           color: #0b3948;
         }
-        ${mq[2]} {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          place-items: center;
-          .Buttons {
-            grid-row: 1;
-            grid-column: 2/2;
-          }
-          .logo {
-            grid-row: 1;
-            grid-column: 1/2;
-            position: relative;
-            bottom: 10px;
-            font-size: 3rem;
-            padding: 5px;
-          }
-          .dwu {
-            grid-row: 1;
-            grid-column: 1/4;
-            font-size: 0.9rem;
-            position: relative;
-            top: 20px;
-            font-weight: 400;
-            font-size: 1.3rem;
-          }
-        }
+        
       `}
     >
-      <h3 className="logo">Brand Design Menu</h3>
+      <h3 className="logo">Virtual Office</h3>
       <Buttons
         className="Buttons"
         // setAll={setAll}
