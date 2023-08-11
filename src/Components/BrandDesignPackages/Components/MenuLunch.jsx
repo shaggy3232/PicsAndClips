@@ -26,9 +26,10 @@ const MenuLunch = ({ lunch, items }) => {
               <motion.div className="item-content">
                 <motion.div className="item-title-box">
                   <motion.h5 className="item-title">{item.title}</motion.h5>
-                  <motion.h5 className="item-price">{item.fileFormat}</motion.h5>
+                  <motion.h5  className="item-price">{item.fileFormat}</motion.h5>
                 </motion.div>
                 <motion.p className="item-desc">{item.desc}</motion.p>
+                <motion.a className="checkout-link"href="https://professional.youshouldgetpluggedin.io/professional-6506">Check it out now</motion.a>
               </motion.div>
             </motion.div>
           ))}

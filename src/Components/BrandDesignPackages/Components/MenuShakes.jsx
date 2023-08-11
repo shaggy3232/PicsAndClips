@@ -8,6 +8,8 @@ const MenuShakes = ({ shakes, items }) => {
       opacity: 1,
     },
   };
+
+
   return (
     <>
       {shakes &&
@@ -24,7 +26,7 @@ const MenuShakes = ({ shakes, items }) => {
               <motion.div className="item-content">
                 <motion.div className="item-title-box">
                   <motion.h5 className="item-title">{item.title}</motion.h5>
-                  <motion.h5 className="item-price">{item.price}</motion.h5>
+                  <motion.h5  className="item-price">{item.fileFormat}</motion.h5>
                 </motion.div>
                 <motion.p className="item-desc">{item.desc}</motion.p>
               </motion.div>

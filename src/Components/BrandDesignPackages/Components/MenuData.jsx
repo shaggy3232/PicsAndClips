@@ -44,7 +44,7 @@ const menuData = [
     title:"Email Marketing",
     category:'main',
     fileFormat:"Other tools: $99",
-    desc:"Build and Manage email marketing campaignes to grow and nurture your customers"
+    desc:" Our software enables you to segment your audience, create dynamic content, and send targeted messages that resonate with each subscriber."
 
   },
   {
@@ -52,21 +52,21 @@ const menuData = [
     title:"2-way SMS Marketing",
     category:"main",
     fileFormat:"Other tools: $99",
-    desc:"Connect and build repport with clients in a personal manner"
+    desc:"Say goodbye to one-sided communication and hello to meaningful interactions. Our software enables two-way SMS conversations, allowing you to engage with customers, answer questions, and gather feedback in real time"
   },
   {
     id:8,
-    title:"Unlimited Sales Funnel",
+    title:"Website Builder",
     category:"deserts",
-    fileFormat:"Other tools: $299",
-    desc:"A finely curated set of colours to make sure that your brand stays consistent and expresses the aesthetic of you brand correctly, This will also include instruction on how to use which colour when.",
+    fileFormat:"",
+    desc:"Ready to make your digital dreams a reality? Introducing our expert Website Development Service—a transformative solution designed to craft stunning, user-friendly websites that captivate audiences and drive your business forward.",
   },
   {
     id:9,
     title:"Pipeline Management",
     category:"main",
     fileFormat:"Other tools: $99",
-    desc:"Manage potential leads and nurture them into clients",
+    desc:"Our intuitive software provides a visual representation of your sales pipeline, helping you track every lead, deal, and opportunity in a single, organized dashboard.",
   },
   {
     id:10,
@@ -85,31 +85,31 @@ const menuData = [
 
   {
     id:12,
-    title:"NFC Tags",
-    category:"deserts",
-    fileFormat:"",
-    desc:' stickers that can be used either to throw into packaging or on business cards to easily share you online presence quickly',
+    title:"Unlimited Sales Funnel",
+    category:"main",
+    fileFormat:"Other Tools: $297",
+    desc:'Create and manage multiple sales funnels all under one platform linking to Stripe accounts',
   },
   {
     id:13,
-    title:"Packaging Moc-ups",
+    title:"Brand Design",
     category:"deserts",
     fileFormat:"",
-    desc:" Packaging design is important when trying to give a effective start to finish interaction with a customer",
+    desc:" From logos and color palettes to captivating graphics, our design experts create a cohesive visual language that tells your story at a glance.",
   },
   {
     id:14,
-    title:"Custom Graphics",
+    title:"Content Creation",
     category:"deserts",
     fileFormat:"",
-    desc:' Whether its a banner for a website or a social media post there is always a necisity for creative graphics',
+    desc:" Experience a surge in audience engagement and conversions with content that sparks connections. Whether it's eye-catching visuals or thought-provoking articles, we tailor our creations to resonate with your target audience.",
   },
   {
     id:15,
-    title:"Analytics and tracking",
-    category:"main",
-    fileFormat:"Other Tools: $49",
-    desc:'Identify trends, detect bottlenecks, and pinpoint areas for improvement, allowing you to fine-tune your operations and optimize outcomes.',
+    title:"Paid Ads Marketing",
+    category:"deserts",
+    fileFormat:"",
+    desc:'Our PPC experts craft campaigns that reach your ideal audience at the right time and place, ensuring your ads resonate and convert.',
   },
   {
     id:16,
@@ -118,6 +118,14 @@ const menuData = [
     fileFormat:"All This For: $497",
     desc:'Everything in the One Man Army plan plus the additional Marketing features letting you not just optimize your services but grow seemlessly through digital marketing',
   },
+  {
+    id:17,
+    title:"Dynasty",
+    category:"deserts",
+    fileFormat:"Lets get in touch",
+    desc:'Everything you have in the Dream Ream plus your own group of experts ready to answer and solve whatever road blocks are in your way to building your dynasty.',
+  }
+  
   
 
 ];
