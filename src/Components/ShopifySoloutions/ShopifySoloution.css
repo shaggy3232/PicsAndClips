@@ -40,6 +40,7 @@
     margin: 20px;
     padding: 20px;
     width: 80%;
+    height: 440px;
     min-height: 200px;
     display: grid;
     grid-template-rows: 20px 50px 1fr 50px;
