@@ -41,8 +41,6 @@
     padding: 20px;
     min-width: 320px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 25px !important; 
     background: #eef0eb;
     box-shadow: 14px 14px 20px #eef0eb, -14px -14px 20px white;
