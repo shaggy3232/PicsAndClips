@@ -39,7 +39,7 @@
   .card {
     margin: 20px;
     padding: 20px;
-    width: 500px;
+    min-width: 320px;
     min-height: 200px;
     display: grid;
     grid-template-rows: 20px 50px 1fr 50px;
@@ -86,7 +86,7 @@
   
   .card__icon {
     grid-row: 2/3;
-    font-size: 30px;
+    font-size:1.5rem;
   }
   
   .card__title {
