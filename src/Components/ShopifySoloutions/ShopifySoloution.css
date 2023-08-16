@@ -57,13 +57,13 @@
   .card__link,
   .card__exit,
   .card__icon {
-    position: relative;
+    
     text-decoration: none;
     color:#284b63;
   }
   
   .card__link::after {
-    position: absolute;
+    
     top: 25px;
     left: 0;
     content: "";
