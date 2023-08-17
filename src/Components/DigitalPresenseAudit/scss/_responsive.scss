@@ -1,19 +1,14 @@
-@media only screen and (max-width: 800px) {
-  .illustration__woman-desktop {
-    max-width: 120%;
-    display: none;
-  }
-}
+
 
 @media only screen and (max-width: 700px) {
   .container {
     width: 90%;
+    display: flex;
   }
 
   .component {
     background-image: url(../images/bg-pattern-mobile.svg);
     background-position: top;
-    flex-direction: column;
   }
 
   .illustration {
@@ -38,6 +33,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-self: center;
 
     padding-top: 132px;
     padding-bottom: 48px;

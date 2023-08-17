@@ -1,6 +1,6 @@
 .digital-presence-audit{
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    width: 90%;
+    justify-self: center;
+    align-self: center;
     display: flex;
 }

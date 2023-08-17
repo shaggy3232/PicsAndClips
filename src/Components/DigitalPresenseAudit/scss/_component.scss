@@ -1,13 +1,13 @@
 .component {
   margin: 0 auto;
   max-width: 2000px;
-  width: 100%;
+  width: 90%;
   background-color: #eef0eb;
   background-image: url(../images/bg-pattern-desktop.svg);
   background-position: -565px -295px;
   background-repeat: no-repeat;
   box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
   border-radius: 23px;
-  display: flex;
+  display: grid;
   margin-bottom: 3rem;
 }

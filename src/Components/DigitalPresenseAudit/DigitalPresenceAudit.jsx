@@ -40,7 +40,7 @@ class DigitalPresenceAudit extends Component {
     render(){
         return(
             <div className="digital-presence-audit">
-                <div className="component neuphmorphism">
+                <div className="component">
                     <Accordion questionsAnswers={questionsAnswers} />
                 </div>
                 </div>

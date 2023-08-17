@@ -39,7 +39,8 @@
   .card {
     margin: 20px;
     padding: 20px;
-    min-width: 320px;
+    min-width: 320px !important;
+    max-width: 500px !important;
     min-height: 200px;
     border-radius: 25px !important; 
     background: #eef0eb;
