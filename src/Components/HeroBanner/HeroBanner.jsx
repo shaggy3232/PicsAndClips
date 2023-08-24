@@ -8,7 +8,7 @@ class HeroBanner extends Component {
     return (
     <div className="neumorphic-hero-banner">
         <div className="content">
-          <h1 className="title">All of your Online Business Needs</h1>
+          <h1 className="title">Media Creation, Graphic Design, Software Development and Digital Consulting</h1>
           <p className="subtitle">You Should Get Plugged In</p>
           <p>We help businesses scale with Technology and Creativity</p>
           <button className='scroll-button' onClick={onContactButtonClick}>Contact Us</button>
