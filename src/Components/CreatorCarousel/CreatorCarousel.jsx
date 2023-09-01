@@ -4,6 +4,7 @@ import slideOneImage from '../../Assets/laptopandsmartphonemockups.png'
 import slideTwoImage from '../../Assets/branddesignslide2.png'
 import slideThreeImage from '../../Assets/mediaproductionslide3.png'
 
+
 class CreatorCarousel extends Component {
   constructor(props) {
     super(props);
@@ -51,7 +52,7 @@ class CreatorCarousel extends Component {
     const currentDescription = this.slides[currentSlide].description;
 
     return (
-      <div className="creator-carousel-container">
+      <div className="creator-carousel-container container">
         <div className="creator-carousel">
           <img src={currentImage} alt={currentTitle} />
           <div className="creator-carousel-content">

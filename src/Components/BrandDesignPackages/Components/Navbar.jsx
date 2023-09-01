@@ -13,10 +13,13 @@ const Navbar = ({ setAll, setBreakfast, setLunch, setShakes }) => {
       className="Navbar"
       css={css`
         display: flex;
+        z-index:1;
+        position:relative;
         justify-content: space-around;
         .logo {
           font-size: 1.8rem;
           color: #0b3948;
+          margin:0;
         }
         
       `}

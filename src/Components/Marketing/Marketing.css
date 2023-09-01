@@ -11,6 +11,7 @@
   font-family: "Exo 2", sans-serif;
   color: var(--color);
   background: var(--bgColor);
+  z-index: 1;
 }
 
 h1 { text-align: center }

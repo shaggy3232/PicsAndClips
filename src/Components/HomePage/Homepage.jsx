@@ -10,6 +10,7 @@ import MediaCreation from '../MediaCreation/MediaCreation';
 import HeroBanner from '../HeroBanner/HeroBanner';
 import CreatorCarousel from '../CreatorCarousel/CreatorCarousel';
 import GoHighlevelContactForm from '../GoHighlevelContactForm/GoHighlevelContactForm';
+import Circuit from '../Circuit/Circuit';
 
 
 
@@ -29,14 +30,18 @@ class Homepage extends Component {
     render(){
         return(
             <div className = "bg" >
+                
                 <HeroBanner onContactButtonClick={this.handleScrollToContactForm}/>
+                {/* <CreatorCarousel/> */}
                 <Operation/>
-                <CreatorCarousel/>
+                
                 <BrandDesignMenu/>
-                <Marketing/>
-                <ShopifySolution/>
+                {/* <Marketing/> */}
+                {/* <ShopifySolution/> */}
                 <DigitalPresenceAudit/>
+                
                 <GoHighlevelContactForm ref={this.contactFormRef}/>
+
             </div>
 
         )

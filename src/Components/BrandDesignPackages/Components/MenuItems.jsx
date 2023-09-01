@@ -28,6 +28,8 @@ const MenuItems = ({ items, breakfast, lunch, shakes }) => {
       animate="visible"
       css={css`
         display: grid;
+        z-index:1;
+        position:relative;
         grid-template-columns: 1fr 1fr;
         ${mq[2]} {
           grid-template-columns: 1fr;

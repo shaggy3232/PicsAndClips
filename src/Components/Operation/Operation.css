@@ -2,6 +2,7 @@
 
 .operation-cards-container {
   width:100%;
+  z-index: 1;
 }
 
 .operation-cards {
@@ -9,7 +10,6 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  min-height: 100vh;
   background: #eef0eb;
   padding-top:2rem;
   flex-direction: column;
@@ -26,15 +26,16 @@
 
 .operation-cards .card {
   position: relative;
-  min-width: 320px;
+  min-width: 300px !important;
   height: 440px;
   background-color: #eef0eb;
   box-shadow: inset 5px 5px 5px #f4f9e9,
     inset -5px -5px 15px rgba#eef0eb,
     5px 5px 15px #f4f9e9, -5px -5px 15px #eef0eb;
   border-radius: 15px;
-  margin: 30px;
+  margin: 10px;
   transition: 0.5s;
+  border: none;
 }
 
 

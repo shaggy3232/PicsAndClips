@@ -6,6 +6,7 @@ import "./scss/main.scss";
 import illustration__box from "./images/illustration-box-desktop.svg";
 import illustration__woman_desktop from "./images/illustration-woman-online-desktop.svg";
 import illustration__woman_mobile from "./images/illustration-woman-online-mobile.svg";
+import Circuit from '../Circuit/Circuit';
 
 const questionsAnswers = [
     {
@@ -43,6 +44,8 @@ class DigitalPresenceAudit extends Component {
                 <div className="component">
                     <Accordion questionsAnswers={questionsAnswers} />
                 </div>
+
+              
                 </div>
 
         )

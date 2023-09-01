@@ -7,6 +7,7 @@ import consultingsvg from "../../Assets/undraw_content_team_re_6rlg.svg"
 import "./Operation.css"
 
 
+
 class Operation extends Component {
     render(){
         return(

@@ -24,7 +24,7 @@ const Accordion = ({ questionsAnswers }) => {
 
   return (
     <div className="faq">
-      <h1 className="faq__title">Free Digital Presence Audit</h1>
+      <h1 className="faq__title">Digital Presence Audit</h1>
       <dl className="faq__list">{renderedQuestionsAnswers}</dl>
     </div>
   );

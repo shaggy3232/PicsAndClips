@@ -6,6 +6,8 @@ import { useState } from "react";
 import MenuItems from "./Components/MenuItems";
 import MenuData from "./Components/MenuData";
 import Navbar from "./Components/Navbar";
+import imessage from "../../Assets/chat3dmodel.png"
+import "./BrandDesignPackage.css"
 
 function BrandDesignMenu() {
   // const [all, setAll] = useState(true);
@@ -15,6 +17,7 @@ function BrandDesignMenu() {
 
   return (
     <div>
+       <img src={imessage} className="chat3d"/>
       <Navbar
         // setAll={setAll}
         setBreakfast={setBreakfast}

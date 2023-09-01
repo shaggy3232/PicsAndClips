@@ -14,18 +14,18 @@ const Buttons = ({ setBreakfast, setLunch, setShakes }) => {
         display: flex;
         button {
           background: #eef0eb;
-          margin: 0 2rem;
+          margin: 0;
           border: none;
           padding: 10px;
           cursor: pointer;
           transition: 0.3s linear;
           outline: none;
           ${mq[2]} {
-            margin: 0 1rem;
+            margin: 0 ;
           }
           ${mq[0]} {
             margin: 0;
-            margin-top: 2rem;
+            margin-top:0;
           }
           &::after {
             content: "";

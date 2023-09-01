@@ -1,6 +1,7 @@
 import React, { useState, forwardRef } from 'react';
 import Iframe from 'react-iframe';
-
+import Circuit from '../Circuit/Circuit';
+import "./GoHighLevelForm.css"
 const GoHighlevelContactForm = forwardRef((props, ref)=> {
   
 
@@ -17,6 +18,7 @@ const GoHighlevelContactForm = forwardRef((props, ref)=> {
     return (
       <div ref={ref}>
         <h2>Lets Connect</h2>
+        <Circuit/>
           <div className="iframe-container">
             <iframe
               src="https://link.youshouldgetpluggedin.io/widget/form/l08ibkNnclakXjcr5mGd"

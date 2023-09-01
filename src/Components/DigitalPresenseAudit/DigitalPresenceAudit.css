@@ -3,4 +3,5 @@
     justify-self: center;
     align-self: center;
     display: flex;
+    z-index: 1;
 }
