@@ -17,7 +17,6 @@ function BrandDesignMenu() {
 
   return (
     <div>
-       <img src={imessage} className="chat3d"/>
       <Navbar
         // setAll={setAll}
         setBreakfast={setBreakfast}

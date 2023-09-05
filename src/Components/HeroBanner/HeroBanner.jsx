@@ -4,7 +4,9 @@ import iphone from "../../Assets/iphone3dmodel.png"
 import iMac from "../../Assets/imac3dmodel.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import imessage from "../../Assets/chat3dmodel.png"
+import card from "../../Assets/creditcard3d.png"
+import pie from "../../Assets/data3d.png"
 class HeroBanner extends Component {
 
   componentDidMount() {
@@ -16,15 +18,17 @@ class HeroBanner extends Component {
     
     return (
     <div className="hero-container container">
-
+        <img src={imessage} className="chat3d"/>
+        <img src={card} className="card3d"/>
+        <img src={pie} className="pie3d"/>
       <div className='row'>
         <div className="content col-lg-8 col-12">
           <h1 className="title">Making Sure Your Business Is Ready For The Internet</h1>
-          <p className="subtitle">Digital Marketing and Software Development</p>
-          <p className='Message'>You should get PLUGGED IN</p>
+          <p className="subtitle">Digital Marketing, Creative Desinging and Software Development</p>
+          <p className='message'>You should get PLUGGED IN</p>
           <button className='scroll-button' onClick={onContactButtonClick}>Start Now</button>
         </div>
-        <div  className="col-lg-4 col-12">
+        <div  className="hero-icons col-lg-4 col-12">
         <img src={iphone} className="heroimageiphone"
          alt="Your SVG"
          data-aos="zoom-in-left"

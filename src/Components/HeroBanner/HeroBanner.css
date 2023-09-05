@@ -1,22 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
 .content{
-    padding-top:80px;
+    padding-top:20px;
     padding-bottom: 20px;
     float: left;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
 .hero-container{
     padding-top:30px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     padding-left: 10px;
     width:90%;
 }
 .heroimageiphone{
-    width:80px;
+    width:5vw;
     height: auto;
 }
 .heroimageimac{
-    width:250px;
+    width:12vw;
 }
 .title{
+    z-index:1;
     text-align: left;
+    color: #253243;
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(32px, 5vw, 72px);
+    line-height: 100%;
+    font-weight: 600;
+}
+
+.scroll-button{
+    align-self: flex-start;
+    width: 200px;
+    height: 40px;
+    background-color: #284b63;
+    color: #eef0eb;
+    border: none;
+    border-radius: 6px; 
+    text-transform: uppercase;
+    font-weight: 600;
+    justify-self: left;
+}
+.subtitle{
+    color: #153243;
+    font-family: sans-serif;
+    font-size: clamp(16px, 1.4vw, 24px);
+    font-weight: 300;
+    line-height: 150%;
+    text-align: left;
+}
+.message{
+    color: #153243;
+    font-family: sans-serif;
+    font-size: clamp(16px, 1.4vw, 24px);
+    font-weight: 300;
+    line-height: 150%;
+    text-align: left;
+    margin-top: 0;
+}
+.chat3d{
+    z-index: 0;
+    width:10vh !important;
+    height:auto;
+    position: absolute !important;
+    animation: float 72s ease-in-out infinite;
+}
+
+.pie3d{
+    z-index: 0;
+    width:10vh !important;
+    height:auto;
+    position: absolute !important;
+    animation: pie 65s ease-in-out infinite;
+}
+.card3d{
+    z-index: 0;
+    width:10vh !important;
+    height:auto;
+    position: absolute !important;
+    animation: card 57s ease-in-out infinite;
+}
+@media screen and (max-width: 1080px) {
+ .hero-icons{
+    display: flex;
+    justify-content: right;
+
+ }
+ .heroimageiphone{
+    width:10vw
+}
+.heroimageimac{
+    width:26vw;
+}
+}
+
+@keyframes float {
+    0%   { transform:   translate(-16vw, 90rem); }
+    30%  { transform:  translate(41vw, 1rem) rotate(160deg); }
+    60%  { transform:  translate(-11vw, 80rem) rotate(320deg); }
+    78%  { transform:  translate(30vw, 0rem) rotate(-20deg); }
+    90%  { transform: translate(24vw, 100rem) rotate(-120deg); }
+    100% { transform: translate(-16vw, 90rem); }
+}
+
+@keyframes card {
+    0%   { transform:   translate(33vw, 10rem); }
+    15%  { transform:  translate(-40vw, 50rem) rotate(160deg); }
+    30%  { transform:  translate(0vw, 140rem) rotate(320deg); }
+    68%  { transform:  translate(20vw, 0rem) rotate(-20deg); }
+    80%  { transform: translate(-40vw, 130rem) rotate(-120deg); }
+    100% { transform: translate(33vw, 10rem); }
+}
+
+@keyframes pie {
+    0%   { transform:   translate(-3vw, 0rem); }
+    25%  { transform:  translate(17vw, 100rem) rotate(160deg); }
+    50%  { transform:  translate(-21vw, 0rem) rotate(320deg); }
+    68%  { transform:  translate(32vw, 0rem) rotate(-20deg); }
+    85%  { transform: translate(4vw, 130rem) rotate(-120deg); }
+    100% { transform: translate(-3vw, 0rem); }
 }
