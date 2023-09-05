@@ -84,6 +84,13 @@
     position: absolute !important;
     animation: card 57s ease-in-out infinite;
 }
+.code3d{
+    z-index: 0;
+    width:10vh !important;
+    height:auto;
+    position: absolute !important;
+    animation: code 77s ease-in-out infinite;
+}
 @media screen and (max-width: 1080px) {
  .hero-icons{
     display: flex;
@@ -99,12 +106,12 @@
 }
 
 @keyframes float {
-    0%   { transform:   translate(-16vw, 90rem); }
+    0%   { transform:   translate(-16vw, 140rem); }
     30%  { transform:  translate(41vw, 1rem) rotate(160deg); }
     60%  { transform:  translate(-11vw, 80rem) rotate(320deg); }
     78%  { transform:  translate(30vw, 0rem) rotate(-20deg); }
     90%  { transform: translate(24vw, 100rem) rotate(-120deg); }
-    100% { transform: translate(-16vw, 90rem); }
+    100% { transform: translate(-16vw, 140rem); }
 }
 
 @keyframes card {
@@ -117,10 +124,19 @@
 }
 
 @keyframes pie {
-    0%   { transform:   translate(-3vw, 0rem); }
-    25%  { transform:  translate(17vw, 100rem) rotate(160deg); }
+    0%   { transform:   translate(33vw, 150rem); }
+    25%  { transform:  translate(17vw, 70rem) rotate(160deg); }
     50%  { transform:  translate(-21vw, 0rem) rotate(320deg); }
     68%  { transform:  translate(32vw, 0rem) rotate(-20deg); }
+    85%  { transform: translate(-4vw, 130rem) rotate(-120deg); }
+    100% { transform: translate(33vw, 150rem); }
+}
+
+@keyframes code {
+    0%   { transform:   translate(-45vw, 0rem); }
+    25%  { transform:  translate(17vw, 100rem) rotate(160deg); }
+    50%  { transform:  translate(41vw, 0rem) rotate(320deg); }
+    68%  { transform:  translate(-32vw, 160rem) rotate(-20deg); }
     85%  { transform: translate(4vw, 130rem) rotate(-120deg); }
-    100% { transform: translate(-3vw, 0rem); }
+    100% { transform: translate(-45vw, 0rem); }
 }

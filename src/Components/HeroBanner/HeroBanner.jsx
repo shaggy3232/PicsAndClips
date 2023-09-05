@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import imessage from "../../Assets/chat3dmodel.png"
 import card from "../../Assets/creditcard3d.png"
 import pie from "../../Assets/data3d.png"
+import vscode from "../../Assets/code3d.png"
 class HeroBanner extends Component {
 
   componentDidMount() {
@@ -21,10 +22,11 @@ class HeroBanner extends Component {
         <img src={imessage} className="chat3d"/>
         <img src={card} className="card3d"/>
         <img src={pie} className="pie3d"/>
+        <img src={vscode} className="code3d"/>
       <div className='row'>
         <div className="content col-lg-8 col-12">
           <h1 className="title">Making Sure Your Business Is Ready For The Internet</h1>
-          <p className="subtitle">Digital Marketing, Creative Desinging and Software Development</p>
+          {/* <p className="subtitle">Digital Marketing, Creative Desinging and Software Development</p> */}
           <p className='message'>You should get PLUGGED IN</p>
           <button className='scroll-button' onClick={onContactButtonClick}>Start Now</button>
         </div>
